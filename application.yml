@@ -1,0 +1,6 @@
+spring.datasource.url=jdbc:sqlserver://cybermediadb.database.windows.net:1433;database=survery;user=vmadmin@cybermediadb;password=Sup33rman123#;encrypt=true;trustservercertificate=false;hostnameincertificate=*.database.windows.net;loginTimeout=30;
+spring.datasource.username=vmadmin
+spring.datasource.password=Sup33rman123#
+spring.jms.servicebus.connection-string=Endpoint=sb://cybermedia-springboot.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Y5ru5oN9YDZpc7d94RS2Cd6cAa+fEzzsm3Eb3h/RUWI=
+spring.jms.servicebus.idle-timeout=20000
+spring.jms.servicebus.pricing-tier=basic
