@@ -1,0 +1,6 @@
+--- 
+MaxPageSize: 50
+PageSize: 2
+QUEUE_NAME: cybermedia-surveybroker
+ServiceBusConnectionString: "Endpoint=sb://cybermedia-springboot.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Y5ru5oN9YDZpc7d94RS2Cd6cAa+fEzzsm3Eb3h/RUWI="
+SurveyConnectionString: "Server=tcp:cybermediadb.database.windows.net,1433;Initial Catalog=survery;Persist Security Info=False;User ID=vmadmin;Password=Sup33rman123#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
