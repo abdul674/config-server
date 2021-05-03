@@ -4,3 +4,7 @@ spring.datasource.password=Sup33rman123#
 spring.jms.servicebus.connection-string=Endpoint=sb://cybermedia-springboot.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Y5ru5oN9YDZpc7d94RS2Cd6cAa+fEzzsm3Eb3h/RUWI=
 spring.jms.servicebus.idle-timeout=20000
 spring.jms.servicebus.pricing-tier=basic
+
+spring.zipkin.sender.type = web
+spring.sleuth.sampler.probability=1
+azure.application-insights.instrumentation-key=InstrumentationKey=5c2fa6bb-f36d-43df-89fb-f25c1e24e13b;IngestionEndpoint=https://eastus2-0.in.applicationinsights.azure.com/
