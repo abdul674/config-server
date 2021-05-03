@@ -4,19 +4,16 @@ spring:
     username: vmadmin
     password: Sup33rman123#
 
-spring:
   jms:
     servicebus:
       connection-string: Endpoint=sb://cybermedia-springboot.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Y5ru5oN9YDZpc7d94RS2Cd6cAa+fEzzsm3Eb3h/RUWI=
       idle-timeout: 20000
       pricing-tier: basic
 
-spring:
   zipkin:
     sender:
       type: web
       
-spring:
   sleuth:
     sampler:
       probability: 1
